@@ -16,5 +16,11 @@ namespace WH40K_GUI_UAT_MS539_ML_Week2
         {
             InitializeComponent();
         }
+
+        private void addUnitBtn_Click(object sender, EventArgs e)
+        {
+            Unit un = new Unit();
+            un.ShowDialog();
+        }
     }
 }
