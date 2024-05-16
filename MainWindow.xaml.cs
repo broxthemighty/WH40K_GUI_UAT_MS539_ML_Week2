@@ -24,5 +24,11 @@ namespace WH40K_GUI_UAT_MS539_ML_Week2
         {
             InitializeComponent();
         }
+
+        private void newRoster_Click(object sender, RoutedEventArgs e)
+        {
+            Roster newRoster = new Roster();
+            newRoster.ShowDialog();
+        }
     }
 }
