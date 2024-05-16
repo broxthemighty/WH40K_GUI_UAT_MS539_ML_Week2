@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="New Roster"></MenuItem>
+                <MenuItem Header="Load Roster"></MenuItem>
+                <MenuItem Header="Save Roster"></MenuItem>
+                <MenuItem Header="Delete Roster"></MenuItem>
+                <MenuItem Header="Exit"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <!--Not sure what I will put in here yet-->
+            </MenuItem>
+            <MenuItem Header="About">
+                <!--Put in description of application, who made it, etc-->
+            </MenuItem>
+            <MenuItem Header="Help">
+                <!--Include link to documentation, maybe post something online if I publish this app-->
+            </MenuItem>
+        </Menu>
         
+
     </Grid>
 </Window>
